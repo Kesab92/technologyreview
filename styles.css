@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: NeueHaas, input mono, sans-serif;
+  color: black;
+  background-color: #f3f3f3;
+}
+.s-Blog {
+  background-color: black;
+  color: white;
+}
+.s-Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+.s-Header__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.s-Content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.s-Content__title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.s-Content__image {
+  width: 100%;
+}
+.s-Footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.s-Footer__content {
+  border: 1px solid #fff;
+  margin: 10px;
+  padding: 10px;
+}
+main {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
