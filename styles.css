@@ -50,9 +50,13 @@ body {
   margin: 10px;
   padding: 10px;
 }
+.s-Footer__title {
+  font-weight: bold;
+  font-size: 16px;
+}
 main {
   padding: 1rem;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
 }
 
